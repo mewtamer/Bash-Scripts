@@ -1,7 +1,7 @@
 #! /bin/bash
 if [ -z "$2" ]
 then
-	sudo dd bs=1M of=piBackup.img if=/dev/$1
+	sudo dd bs=1M of=piTemp.img if=/dev/$1
 fi
 if [ -e "$2" ]
 then
