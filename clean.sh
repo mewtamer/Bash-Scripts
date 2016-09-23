@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 cd ~
 rm -Rf .bash_history .c* .dbus .gconf .local/share/recently* .mplayer .macromedia .nano
 sudo apt-get clean

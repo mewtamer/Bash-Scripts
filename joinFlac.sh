@@ -1,4 +1,3 @@
-
 #! /bin/bash
 for dir in *; do
 echo "$dir" >> progress.txt

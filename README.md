@@ -1,13 +1,12 @@
 # Bash-Scripts
 A collection of random shell scripts.
 
-abtorrent
-Older version of ctorrent supported by AnimeBytes Tracker
-
 clean.sh
 Script to remove junk files
 
 directorySort.sh
+Sorts a collection of numerically named files into directories based on 
+first digit.
 
 extractAudio.sh
 Script for batch extraction of audio/subtitle tracks from MKV files.
@@ -22,9 +21,6 @@ convert a Knoppix ISO to an Adriane ISO
 joinFlac.sh
 Script for batch merging of flac files using SoX
 
-mountSSHFS.sh
-Script to automate mounting a remote filesystem via sshfs
-
 OCR.sh
 Script for OCRing a directory full of images.
 
@@ -35,18 +31,12 @@ rootImage.sh
 Script for backing up/restoring the root partition of a Linux system 
 using PartImage.
 
-seed.sh
-Script for batch starting abtorrent.
-
 tagNoChapterTitles.sh
 Script for tagging chapters of a flac-ripped Audiobook where chapters 
 are untitled.
 
 tag.sh
 Skeleton of a script for tagging audiobooks with named chapters.
-
-tagUntested.sh
-An untested script to improve on the above tag scripts.
 
 trackTitles.sh
 Script that generates a list of track titles from filenames.

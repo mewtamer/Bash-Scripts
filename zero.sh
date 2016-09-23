@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 mv 1.jpg 01.jpg
 mv 2.jpg 02.jpg
 mv 3.jpg 03.jpg

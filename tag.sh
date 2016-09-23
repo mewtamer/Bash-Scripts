@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 metaflac --remove-all-tags *.flac
 metaflac --set-tag=ARTIST="" --set-tag=ALBUM="" *.flac
 metaflac --set-tag=TRACK=01 --set-tag=TITLE="" ""

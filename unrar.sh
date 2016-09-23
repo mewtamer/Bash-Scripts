@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 for file in *.rar; do
 dir=$(basename "$file" .rar) # remove the .zip from the filename
 mkdir "$dir"

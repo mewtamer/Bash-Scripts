@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 ls -1 > file_list.txt
 sed -i 's/_/ /g' file_list.txt
 sed -i 's/1/ /g' file_list.txt

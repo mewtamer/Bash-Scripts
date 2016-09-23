@@ -1,4 +1,4 @@
-# /bin/bash
+#! /bin/bash
 for file in *.zip; do
 dir=$(basename "$file" .zip) # remove the .zip from the filename
 mkdir "$dir"
