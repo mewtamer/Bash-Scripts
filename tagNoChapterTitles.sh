@@ -1,6 +1,6 @@
 #! /bin/bash
 metaflac --remove-all-tags *.flac
-metaflac --set-tag=ARTIST="" --set-tag=ALBUM="" *.flac
+metaflac --set-tag=ARTIST="$1" --set-tag=ALBUM="$2" *.flac
 metaflac --set-tag=TRACK=01 --set-tag=TITLE="Chapter 01" "Chapter 01.flac"
 metaflac --set-tag=TRACK=02 --set-tag=TITLE="Chapter 02" "Chapter 02.flac"
 metaflac --set-tag=TRACK=03 --set-tag=TITLE="Chapter 03" "Chapter 03.flac"
