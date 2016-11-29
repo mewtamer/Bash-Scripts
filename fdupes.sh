@@ -1,2 +1,2 @@
 #! /bin/bash
-sudo fdupes ~/.local ~/.mozilla /bin /boot /dev /etc /lib /proc /run /sbin /sys /tmp /usr /var /media -drn
+sudo jdupes /bin /boot /dev /etc /lib /run /sbin /tmp /usr /var -drn
