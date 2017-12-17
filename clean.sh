@@ -4,7 +4,7 @@ rm -Rf .bash_history .c* .dbus .gconf .local/share/recently* .mplayer .macromedi
 sudo apt-get clean
 sudo rm -Rf /1 /.cache /var/lib/apt/lists/* /tmp/* /var/log/*
 cd /usr/share/
-sudo rm -Rf app* bug doc* i18n info m* lintian locale perl* pix* py* t* z*
+sudo rm -Rf app* bash* bin* bug doc* i18n icons info lintian locale perl* py* t* z*
 cd /var/lib/dpkg/info
 sudo rm -Rf *inst *triggers *sums
 sudo find / -type d -empty -delete
